@@ -8,7 +8,16 @@ const events = {
   beginPath: "beginPath",
   strokePath: "storkePath",
   beganPath: "beganPath",
-  strokedPath: "storkedPath"
+  strokedPath: "storkedPath",
+  fill: "fill",
+  filled: "filled",
+  playerUpdate: "playerUpdate",
+  gameStarted: "gameStarted",
+  leaderNotif: "leaderNotif",
+  gameEnded: "gameEnded",
+  gameStarting: "gameStarting",
+  startTimeout: "startTimeout",
+  endTimeout: "endTimeout"
 };
 
 export default events;
